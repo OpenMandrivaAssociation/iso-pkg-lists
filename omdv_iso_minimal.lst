@@ -1,0 +1,19 @@
+%include .///omdv_core.lst
+
+acpi
+acpid
+at
+basesystem
+cronie-anacron
+dhcp-client
+gpm
+grub2
+kernel-nrjQL-desktop
+isolinux
+nscd
+openssh-clients
+pciutils
+syslinux
+usbutils
+usb_modeswitch
+wireless-tools
