@@ -20,7 +20,7 @@
 #%include .///omdv_gstreamer.lst
 %include .///omdv_libreoffice.lst
 #%include .///omdv_myspell.lst
-%include .///omdv_thunderbird.lst
+#%include .///omdv_thunderbird.lst
 #%include .///omdv_x11_extra.lst
 
 # make into task pkg
@@ -311,6 +311,7 @@ task-printing
 #system-config-printer
 kde-print-manager
 
+kmail
 kopete
 rosa-media-player
 amarok
