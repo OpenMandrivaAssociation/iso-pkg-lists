@@ -305,6 +305,8 @@ xev
 zcip
 #!zip
 
+default-kde4-config
+
 task-kde4
 task-pulseaudio
 task-printing
@@ -386,3 +388,15 @@ zenity
 #!lsb-release
 ##glibc_lsb
 ##glibc-i18ndata
+
+# For Asian input support
+plasma-dataengine-kimpanel
+plasma-applet-kimpanel
+fcitx
+fcitx-qt4
+kcm-fcitx
+
+# For Conectiva beta, need to find a better way to take care of i18n
+locales-pt
+kde-l10n-pt_BR
+man-pages-pt_BR
