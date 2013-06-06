@@ -389,6 +389,8 @@ zenity
 ##glibc_lsb
 ##glibc-i18ndata
 
+plasma-applet-networkmanagement
+
 # For Asian input support
 plasma-dataengine-kimpanel
 plasma-applet-kimpanel
