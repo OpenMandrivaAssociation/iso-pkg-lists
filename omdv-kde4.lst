@@ -200,6 +200,7 @@ pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
 alsa-plugins-pulseaudio
+phonon-vlc
 alsa-utils
 #!python
 #!python-cairo
