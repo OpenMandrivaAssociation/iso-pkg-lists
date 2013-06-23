@@ -199,6 +199,8 @@ pulseaudio-module-gconf
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
+alsa-plugins-pulseaudio
+alsa-utils
 #!python
 #!python-cairo
 #!python-gobject
