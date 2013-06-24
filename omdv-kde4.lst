@@ -201,6 +201,11 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 alsa-plugins-pulseaudio
 phonon-vlc
+vlc
+vlc-plugin-pulse
+vlc-plugin-theora
+vlc-plugin-flac
+vlc-plugin-gnutls
 # For phonon-gstreamer, remove if phonon-vlc turns out to work well
 gstreamer0.10-tools
 alsa-utils
