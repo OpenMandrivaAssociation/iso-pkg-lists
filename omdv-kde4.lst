@@ -201,6 +201,8 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 alsa-plugins-pulseaudio
 phonon-vlc
+# For phonon-gstreamer, remove if phonon-vlc turns out to work well
+gstreamer0.10-tools
 alsa-utils
 #!python
 #!python-cairo
@@ -294,7 +296,7 @@ xorg-x11
 #!xdg-user-dirs
 xdg-user-dirs-gtk
 #!xdg-utils
-xdm
+#xdm
 #!xdpyinfo
 xev
 #!xhost
