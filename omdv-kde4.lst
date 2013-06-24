@@ -141,7 +141,7 @@ mandriva-gfxboot-theme
 mandriva-theme-Free-screensaver
 man-pages
 mdadm
-mdkonline
+#mdkonline
 mdv-rpm-summary
 #!menu-messages
 #!meta-task
