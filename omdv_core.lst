@@ -2,6 +2,6 @@ basesystem-minimal
 locales
 locales-en
 ncurses
-mandriva-release-common
+distro-release-common
 urpmi
-
+meta-task
