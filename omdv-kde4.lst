@@ -185,7 +185,7 @@ pavucontrol
 #!plymouth-scripts
 pm-fallback-policy
 pm-utils
-policykit
+polkit
 polkit-gnome
 #!popt-data
 pptp-linux
