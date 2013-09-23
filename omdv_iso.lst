@@ -15,7 +15,6 @@ memtest86+
 ntfs-config
 ntfsprogs
 ntp
-numlock
 pcmciautils
 plymouth-utils
 python-curl
