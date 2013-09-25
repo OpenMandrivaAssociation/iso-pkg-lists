@@ -105,7 +105,6 @@ ghostscript-fonts
 #!gnupg
 gnupg2
 #!gtk+2.0
-gtksourceview
 #!gurpmi
 gvfs-archive
 gvfs-fuse
@@ -188,7 +187,6 @@ pavucontrol
 pm-fallback-policy
 pm-utils
 polkit
-polkit-gnome
 #!popt-data
 pptp-linux
 preload
@@ -196,7 +194,7 @@ preload
 #!psmisc
 pulseaudio
 #!pulseaudio-client-config
-pulseaudio-esound-compat
+#pulseaudio-esound-compat
 pulseaudio-module-gconf
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
@@ -398,13 +396,17 @@ whois
 wvdial
 xl2tpd
 #@youmagic
-zenity
 
 #!lsb-release
 ##glibc_lsb
 ##glibc-i18ndata
 
 plasma-applet-networkmanagement
+okular-pdf
+krita
+rosa-software-center
+kdialog
+qupzilla
 
 # For Asian input support
 plasma-dataengine-kimpanel
