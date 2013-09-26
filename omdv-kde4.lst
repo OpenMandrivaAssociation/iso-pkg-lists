@@ -105,6 +105,7 @@ ghostscript-fonts
 #!gnupg
 gnupg2
 #!gtk+2.0
+gtk2-modules
 #!gurpmi
 gvfs-archive
 gvfs-fuse
