@@ -295,8 +295,17 @@ x11-font-cyrillic
 
 # keep to check
 #!x11-server-common
-#!x11-server-xorg
-xorg-x11
+x11-data-bitmaps
+x11-server-xorg
+x11-tools
+x11-docs
+fonts-ttf-dejavu
+fonts-ttf-liberation
+x11-font-type1
+x11-font-misc
+libx11
+x11-data-cursor-themes
+
 
 #!xauth
 #!xdg-user-dirs
