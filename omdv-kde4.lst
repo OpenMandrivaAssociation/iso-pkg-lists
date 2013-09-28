@@ -17,7 +17,7 @@
 #%include .///omdv_aspell.lst
 %include .///omdv_firefox.lst
 %include .///omdv_fonts.lst
-#%include .///omdv_gstreamer.lst
+%include .///omdv_gstreamer.lst
 %include .///omdv_libreoffice.lst
 #%include .///omdv_myspell.lst
 #%include .///omdv_thunderbird.lst
@@ -32,6 +32,7 @@ aoss
 aria2
 atk1.0-common
 avahi
+cagibi
 #!bash
 bluedevil #this should be a task-kde4 dep
 bootloader-utils
@@ -106,6 +107,9 @@ ghostscript-fonts
 gnupg2
 #!gtk+2.0
 gtk2-modules
+gtk-engines2
+gtk-qt-engine
+kde-gtk-config
 #!gurpmi
 gvfs-archive
 gvfs-fuse
@@ -173,6 +177,8 @@ open
 #!openldap
 #!openssh
 openssh-server
+openssh-askpass-qt4
+pinentry-qt4
 openssl
 oxygen-icon-theme
 #!pam
@@ -305,7 +311,7 @@ x11-font-type1
 x11-font-misc
 libx11
 x11-data-cursor-themes
-
+radeon-firmware
 
 #!xauth
 #!xdg-user-dirs
@@ -328,6 +334,82 @@ zcip
 default-kde4-config
 
 task-kde4
+
+# FIXME should those go to task-kde4? Or maybe a new task-kde4-optional?
+akonadi
+akonadi-common
+kaddressbook
+importwizard
+kalarm
+kamera
+kcalc
+kcron
+kmail
+kopete
+kde-odf-thumbnail
+kde4-kwin-dekorator-themes
+kdenetwork-filesharing
+kdenetwork-strigi-analyzers
+kdenetwork4
+kdepasswd
+kdepim4
+kdepim4-kresources
+kdnssd
+kget
+kincidenceeditor
+kio-sysinfo
+kleopatra
+klipper
+klook
+knotes
+kontact
+korganizer
+korundum
+kppp
+kppp-provider
+krdc
+krfb
+ksendemail
+ktexteditor
+ktimer
+ktimetracker
+kwallet
+plasma-applet-battery
+plasma-applet-leavenote
+plasma-applet-magnifique
+plasma-applet-mediaplayer
+plasma-applet-microblog
+plasma-applet-networkmanagement
+plasma-applet-news
+plasma-applet-notes
+plasma-applet-paste
+plasma-applet-previewer
+plasma-applet-timer
+plasma-applet-weather
+plasma-applet-weatherstation
+plasma-applet-webslice
+plasma-desktoptheme-default
+plasma-runner-powerdevil
+plasma-runner-audioplayercontrol
+plasma-runner-contacts
+plasma-runner-datetime
+plasma-runner-dictionary
+plasma-runner-events
+plasma-runner-katesessions
+plasma-runner-konquerorsessions
+plasma-runner-konsolesessions
+plasma-runner-kopete
+plasma-wallpaper-weather
+kdialog
+okular-pdf
+poppler-data
+okular-djvu
+okular-dvi
+okular-kimgio
+okular-tiff
+okular-txt
+okular-xps
+
 task-pulseaudio
 task-printing
 hplip-gui
@@ -335,11 +417,10 @@ system-config-printer
 kde-print-manager
 kwallet-daemon
 
-kmail
-kopete
 rosa-media-player
 rosa-media-player-plugin
 amarok
+amarok-scripts
 kvirc
 
 # Needed for the GTK theme for now, but we may want to
@@ -411,11 +492,8 @@ xl2tpd
 ##glibc_lsb
 ##glibc-i18ndata
 
-plasma-applet-networkmanagement
-okular-pdf
 krita
 rosa-software-center
-kdialog
 qupzilla
 
 # For Asian input support
