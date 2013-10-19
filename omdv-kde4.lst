@@ -492,16 +492,18 @@ xl2tpd
 ##glibc_lsb
 ##glibc-i18ndata
 
+kcm_touchpad
+
 krita
 rosa-software-center
 qupzilla
 
 # For Asian input support
-plasma-dataengine-kimpanel
-plasma-applet-kimpanel
-fcitx
-fcitx-qt4
-kcm-fcitx
+#plasma-dataengine-kimpanel
+#plasma-applet-kimpanel
+#fcitx
+#fcitx-qt4
+#kcm-fcitx
 
 # For Conectiva beta, need to find a better way to take care of i18n
 locales-pt
