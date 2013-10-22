@@ -414,6 +414,7 @@ task-pulseaudio
 task-printing
 hplip-gui
 system-config-printer
+system-config-printer-gui
 kde-print-manager
 kwallet-daemon
 
