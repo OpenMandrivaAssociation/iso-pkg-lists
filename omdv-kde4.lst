@@ -38,7 +38,7 @@ bluedevil #this should be a task-kde4 dep
 bootloader-utils
 bootsplash
 busybox-static
-canberra-common
+#!canberra-common
 canberra-gtk
 cdialog
 cdrkit
