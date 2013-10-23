@@ -512,6 +512,7 @@ kde-l10n-pt_BR
 man-pages-pt_BR
 
 # More i18n to take care of the translations we usually provide
+kde-l10n-nb
 kde-l10n-nn
 locales-pl
 kde-l10n-pl
