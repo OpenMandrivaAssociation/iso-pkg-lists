@@ -62,8 +62,6 @@ davfs2
 #!dhcp-common
 #!diffutils
 dirmngr
-dkms
-dkms-minimal
 #!dmidecode
 dmraid
 dmraid-events
