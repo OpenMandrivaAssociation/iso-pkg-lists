@@ -204,6 +204,7 @@ pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
 alsa-plugins-pulseaudio
+rosa-launcher
 phonon-vlc
 vlc
 vlc-plugin-pulse
