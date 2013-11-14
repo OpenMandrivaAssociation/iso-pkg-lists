@@ -8,6 +8,10 @@ cronie-anacron
 dhcp-client
 gpm
 grub2
+grub-efi
+grub-efi-efi
+gnu-efi
+efibootmgr
 kernel-nrjQL-desktop
 isolinux
 nscd
