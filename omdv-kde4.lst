@@ -443,7 +443,8 @@ bash-completion
 bind-utils
 bluez-alsa
 cifs-utils
-#@grub-efi
+grub-efi
+grub-efi-efi
 htop
 isomd5sum
 krb5-workstation
