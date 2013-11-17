@@ -413,6 +413,7 @@ okular-xps
 
 task-pulseaudio
 task-printing
+task-printing-scanning
 hplip-gui
 system-config-printer
 system-config-printer-gui
