@@ -10,11 +10,14 @@ dynamic
 eject
 gvfs
 indexhtml
+inxi
 man
 memtest86+
+mc
 ntfs-config
 ntfsprogs
 ntp
+p7zip
 pcmciautils
 plymouth-utils
 python-curl
