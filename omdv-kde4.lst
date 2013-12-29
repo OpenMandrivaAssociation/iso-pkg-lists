@@ -87,6 +87,7 @@ ffmpeg
 ffmpegthumbs
 #!file
 #!findutils
+firewall-applet
 #!fontconfig
 #!font-tools
 freetype
