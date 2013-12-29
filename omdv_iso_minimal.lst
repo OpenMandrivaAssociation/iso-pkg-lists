@@ -12,11 +12,14 @@ grub-efi
 grub-efi-efi
 gnu-efi
 efibootmgr
+firewalld
+firewall-config
 kernel-nrjQL-desktop
 isolinux
 nscd
 openssh-clients
 pciutils
+realmd
 syslinux
 usbutils
 usb_modeswitch
