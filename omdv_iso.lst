@@ -32,8 +32,7 @@ urw-fonts
 uuidd
 wget
 x11-data-bitmaps
-x11-driver-input-keyboard
-x11-driver-input-mouse
+x11-driver-input-evdev
 x11-driver-input-synaptics
 x11-driver-video
 xfsprogs

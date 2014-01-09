@@ -84,7 +84,6 @@ enchant
 #!etcskel
 #!ethtool
 ffmpeg
-ffmpegthumbs
 #!file
 #!findutils
 firewall-applet
@@ -341,7 +340,6 @@ akonadi-common
 kaddressbook
 importwizard
 kalarm
-kamera
 kcalc
 kcron
 kmail
@@ -395,7 +393,6 @@ plasma-applet-weatherstation
 plasma-applet-webslice
 plasma-desktoptheme-default
 plasma-krunner-powerdevil
-plasma-mediacenter
 plasma-runner-audioplayercontrol
 plasma-runner-contacts
 plasma-runner-datetime
@@ -447,7 +444,6 @@ qgtkstylealt
 autofs
 bash-completion
 bind-utils
-bluez-alsa
 cifs-utils
 grub-efi
 grub-efi-efi
@@ -481,7 +477,7 @@ pcsc-lite
 ##perl-Pod-Plainer
 ##perl-Safe
 pulseaudio-module-bluetooth
-rdesktop
+freerdp
 samba-client
 samba-common
 samba-server
