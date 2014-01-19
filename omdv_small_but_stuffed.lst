@@ -18,7 +18,6 @@ mdv-rpm-summary
 openssh-server
 samba-server
 samba-client
-system-config-services
 task-x11
 uClibc
 x11-driver-input-vmmouse

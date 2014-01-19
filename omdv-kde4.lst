@@ -486,7 +486,6 @@ samba-winbind
 sasl-plug-gssapi
 #!systemd-sysvinit
 #!systemd
-system-config-services
 #!usb_modeswitch-data
 vpnpptp-allde
 whois
