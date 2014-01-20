@@ -150,7 +150,7 @@ mdv-rpm-summary
 #!menu-messages
 #!meta-task
 #!migration-assistant
-mingetty
+#!mingetty
 #!mkfontdir
 #!mkfontscale
 mktemp
