@@ -87,6 +87,7 @@ ffmpeg
 #!file
 #!findutils
 firewall-applet
+typelib(NetworkManager)
 #!fontconfig
 #!font-tools
 freetype
