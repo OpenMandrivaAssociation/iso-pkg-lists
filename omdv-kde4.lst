@@ -426,7 +426,7 @@ kwallet-daemon
 
 amarok
 amarok-scripts
-kvirc
+konversation
 
 # Needed for the GTK theme for now, but we may want to
 # replace this with something a little less heavy on dependencies
