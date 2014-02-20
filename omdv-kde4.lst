@@ -295,7 +295,6 @@ x11-driver-video-vboxvideo
 x11-driver-video-modesetting
 
 #metapkgs
-xorg-x11-75dpi-fonts
 x11-font-cyrillic
 
 # keep to check

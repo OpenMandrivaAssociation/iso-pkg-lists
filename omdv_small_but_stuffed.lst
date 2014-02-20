@@ -26,7 +26,6 @@ x11-driver-video-modesetting
 x11-driver-video-fbdev
 x11-driver-video-vesa
 x11-driver-video-vmware
-xorg-x11-75dpi-fonts
 x11-font-cyrillic
 xorg-x11
 xdg-user-dirs-gtk
