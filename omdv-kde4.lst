@@ -102,7 +102,6 @@ ghostscript
 ghostscript-common
 ghostscript-fonts
 #!glib2.0-common
-#!gnupg
 gnupg2
 #!gtk+2.0
 gtk2-modules
