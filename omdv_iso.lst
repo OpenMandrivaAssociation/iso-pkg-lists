@@ -16,7 +16,7 @@ memtest86+
 mc
 ntfs-config
 ntfsprogs
-ntp
+chrony
 p7zip
 pcmciautils
 plymouth-utils
@@ -26,7 +26,7 @@ sudo
 suspend
 task-x11
 testdisk
-mandriva-theme-Free
+distro-theme-OpenMandriva
 plymouth-system-theme
 urw-fonts
 uuidd
