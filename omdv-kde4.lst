@@ -205,7 +205,6 @@ pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
 alsa-plugins-pulseaudio
-homerun
 phonon-vlc
 vlc
 vlc-plugin-pulse
@@ -335,6 +334,7 @@ task-kde4
 # FIXME should those go to task-kde4? Or maybe a new task-kde4-optional?
 akonadi
 akonadi-common
+homerun
 kaddressbook
 importwizard
 kalarm
@@ -413,6 +413,7 @@ okular-kimgio
 okular-tiff
 okular-txt
 okular-xps
+skanlite
 
 task-pulseaudio
 task-printing
