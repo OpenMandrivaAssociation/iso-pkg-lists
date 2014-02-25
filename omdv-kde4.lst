@@ -345,7 +345,7 @@ kcron
 kmail
 kopete
 kde-odf-thumbnail
-kde4-kwin-dekorator-themes
+#!kde4-kwin-dekorator-themes
 kdenetwork-filesharing
 kdenetwork-strigi-analyzers
 kdenetwork4
