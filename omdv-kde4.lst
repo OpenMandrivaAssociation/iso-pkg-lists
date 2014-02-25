@@ -102,7 +102,7 @@ ghostscript
 ghostscript-common
 ghostscript-fonts
 #!glib2.0-common
-gnupg2
+gnupg
 #!gtk+2.0
 gtk2-modules
 gtk-engines2
@@ -140,9 +140,9 @@ lm_sensors
 lvm2
 mailcap
 #!mandriva-doc-common
-#!mandriva-theme-common
-mandriva-theme-Free-screensaver
 distro-theme-OpenMandriva
+distro-theme-OpenMandriva-screensaver
+distro-kde4-config-OpenMandriva
 man-pages
 mdadm
 mdkonline
@@ -327,7 +327,7 @@ xev
 zcip
 #!zip
 
-distro-kde4-config-OpenMandriva
+
 
 task-kde4
 
