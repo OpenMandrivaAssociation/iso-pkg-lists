@@ -18,6 +18,7 @@ kernel-nrjQL-desktop
 isolinux
 nscd
 openssh-clients
+omv-bug-report
 pciutils
 realmd
 syslinux
