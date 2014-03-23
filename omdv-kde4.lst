@@ -102,8 +102,7 @@ ghostscript
 ghostscript-common
 ghostscript-fonts
 #!glib2.0-common
-#!gnupg
-gnupg2
+gnupg
 #!gtk+2.0
 gtk2-modules
 gtk-engines2
@@ -141,9 +140,9 @@ lm_sensors
 lvm2
 mailcap
 #!mandriva-doc-common
-#!mandriva-theme-common
-mandriva-theme-Free-screensaver
 distro-theme-OpenMandriva
+distro-theme-OpenMandriva-screensaver
+distro-kde4-config-OpenMandriva
 man-pages
 mdadm
 mdkonline
@@ -206,7 +205,6 @@ pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
 alsa-plugins-pulseaudio
-homerun
 phonon-vlc
 vlc
 vlc-plugin-pulse
@@ -329,13 +327,14 @@ xev
 zcip
 #!zip
 
-distro-kde4-config-OpenMandriva
+
 
 task-kde4
 
 # FIXME should those go to task-kde4? Or maybe a new task-kde4-optional?
 akonadi
 akonadi-common
+homerun
 kaddressbook
 importwizard
 kalarm
@@ -346,7 +345,7 @@ kcron
 kmail
 kopete
 kde-odf-thumbnail
-kde4-kwin-dekorator-themes
+#!kde4-kwin-dekorator-themes
 kdenetwork-filesharing
 kdenetwork-strigi-analyzers
 kdenetwork4
@@ -414,6 +413,7 @@ okular-kimgio
 okular-tiff
 okular-txt
 okular-xps
+skanlite
 
 task-pulseaudio
 task-printing
@@ -426,7 +426,7 @@ kwallet-daemon
 
 amarok
 amarok-scripts
-kvirc
+konversation
 
 # Needed for the GTK theme for now, but we may want to
 # replace this with something a little less heavy on dependencies
