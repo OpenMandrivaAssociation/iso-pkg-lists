@@ -3,4 +3,4 @@ ppp-dhcp
 ppp-pppoatm
 ppp-radius
 rp-pppoe
-#rp-pppoe-plugin
+wvdial
