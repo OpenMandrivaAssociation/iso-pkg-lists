@@ -1,10 +1,3 @@
-# in other lists 
-#!eject
-#!gksu
-#!ntfsprogs
-#!x11-driver-video
-#!x11-driver-input
-#!xmessage
 
 # basic includes file lists
 %include .///omdv_core.lst
@@ -13,133 +6,80 @@
 %include .///omdv_drivers.lst
 %include .///omdv_locales.lst
 %include .///omdv_ppp.lst
+
 # more includes lists from rosa
-#%include .///omdv_aspell.lst
 %include .///omdv_firefox.lst
 %include .///omdv_fonts.lst
 %include .///omdv_gstreamer.lst
 %include .///omdv_libreoffice.lst
-#%include .///omdv_myspell.lst
-#%include .///omdv_thunderbird.lst
-#%include .///omdv_x11_extra.lst
 
 # make into task pkg
 ###
-#!harddrake
-#!alsa-plugins-pulse-config
 aoss
-#apmd
 aria2
 atk1.0-common
 avahi
 cagibi
-#!bash
 bluedevil #this should be a task-kde4 dep
 bootloader-utils
 bootsplash
 busybox-static
-#!canberra-common
 canberra-gtk
 cdialog
 cdrkit
 cdrkit-genisoimage
-#!chkconfig
-#!common-licenses
-#!cpio
-#!cracklib-dicts
-#!crda
-#!cronie
-#!crontabs
-#!cryptsetup
 curl
-#!dash
 dash-static
 davfs2
-#!dbus
-#!dbus-x11
-#!desktop-common-data
-#!desktop-file-utils
-#!dhcp-common
-#!diffutils
 dirmngr
-#!dmidecode
 dmraid
 dmraid-events
 dmsetup
 drakguard
 draklive-install
 drakx-installer-binaries-probe
-#!drakx-installer-matchbox
-#!drakx-kbd-mouse-x11
-#!drakxtools
-#!drakxtools-backend
-#!drakxtools-curses
 dump
 dvb-apps
 dvbsnoop
 dvbtune
 dvd+rw-tools
-#!e2fsprogs
 enchant
-#!etcskel
-#!ethtool
 ffmpeg
-#!file
-#!findutils
 firewall-applet
 typelib(NetworkManager)
-#!fontconfig
-#!font-tools
 freetype
 freetype-tools
-#!fuse
 gamin
-#!gawk
 GConf2
-#!genhdlist2
-#!gettext-base
 ghostscript
 ghostscript-common
 ghostscript-fonts
-#!glib2.0-common
 gnupg
-#!gtk+2.0
 gtk2-modules
 gtk-engines2
 gtk-qt-engine
 kde-gtk-config
-#!gurpmi
 gvfs-archive
 gvfs-fuse
 gvfs-gphoto2
 gvfs-smb
-#!harddrake-ui
 hcl
-#!hdparm
 hfsutils
-#!hicolor-icon-theme
 html2text
 ia_ora-gnome
-#!ifplugd
 info
 info-install
 iso-codes
-#!iw
 jackit
 jasper
 jfsutils
 kcmsystemd
 kio-mtp
-#!kbd
 ldetect
-#!ldetect-lst
-#!less
 lftp
 lm_sensors
-#!lsb-release
 lvm2
 mailcap
-#!mandriva-doc-common
 distro-theme-OpenMandriva
 distro-theme-OpenMandriva-screensaver
 distro-kde4-config-OpenMandriva
@@ -147,12 +87,6 @@ man-pages
 mdadm
 mdkonline
 mdv-rpm-summary
-#!menu-messages
-#!meta-task
-#!migration-assistant
-#!mingetty
-#!mkfontdir
-#!mkfontscale
 mktemp
 mkxauth
 mlocate
@@ -161,45 +95,27 @@ mtools
 nail
 ndiswrapper
 net_monitor
-#!netprofile
-#!net-tools
 nfs-utils-clients
 notification-daemon
 nss
 nss_mdns
 nss_tcb
-#!ntfs-3g
-#!ntp-client
 obex-data-server
 open
-#!openldap
-#!openssh
 openssh-server
 openssh-askpass-qt4
 pinentry-qt4
 openssl
 oxygen-icon-theme
-#!pam
-#!pam_tcb
 pango
 paprefs
-#!passwd
 pavucontrol
-#!plymouth
-#!plymouth-plugin-label
-#!plymouth-plugin-script
-#!plymouth-scripts
 pm-fallback-policy
 pm-utils
 polkit
-#!popt-data
 pptp-linux
 preload
-#!procps
-#!psmisc
 pulseaudio
-#!pulseaudio-client-config
-#pulseaudio-esound-compat
 pulseaudio-module-gconf
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
@@ -211,15 +127,12 @@ vlc-plugin-pulse
 vlc-plugin-theora
 vlc-plugin-flac
 vlc-plugin-gnutls
+
 # For phonon-gstreamer, remove if phonon-vlc turns out to work well
 gstreamer0.10-tools
 alsa-utils
-#!python
-#!python-cairo
-#!python-gobject
 python-ldap
 python-notify
-#!python-numpy
 python-OpenSSL
 python-pycrypto
 python-sip
@@ -228,66 +141,31 @@ python-twisted-web
 python-zope-interface
 pyxdg
 quota
-#!resolvconf
-#!rgb
-#!rmt
 rng-utils
-#!rootcerts
-#!rootfiles
 rpcbind
 rpmdrake
 rpmstats
 rsnapshot
 rsync
 rtkit
-#!run-parts
-#!sane-backends
 sane-backends-iscan
 sash
-#!sdparm
-#!sed
-#!sessreg
-#!setxkbmap
-#!shadow-utils
 shared-desktop-ontologies
-#!shared-mime-info
 sharutils
 sound-scripts
 sound-theme-freedesktop
 soundwrapper
 sscape_ctl
-#!sysfsutils
-#!t1utils
 taglib-extras
 tar
-#!tcb
-#!tcl
-#!tcp_wrappers
-#!time
-#!timezone
 tmpwatch
-#!transfugdrake
 uClibc
-#!udev
-#!udisks
 unionfs-utils
-#!unzip
-#!update-alternatives
 upower
 usbmuxd
-#!usermode
-#!usermode-consoleonly
-#!utempter
-#!util-linux
-#!v4l-utils
 vbetool
 vim-minimal
 vnstat
-#vte
-#webkit1.0
-#!webkit1.0-webinspector
-#!which
-#!wireless-regdb
 x11-driver-input-vmmouse
 x11-driver-video-vboxvideo
 x11-driver-video-modesetting
@@ -296,7 +174,6 @@ x11-driver-video-modesetting
 x11-font-cyrillic
 
 # keep to check
-#!x11-server-common
 x11-data-bitmaps
 x11-server-xorg
 x11-tools
@@ -309,25 +186,9 @@ libx11
 x11-data-cursor-themes
 radeon-firmware
 
-#!xauth
-#!xdg-user-dirs
 xdg-user-dirs-gtk
-#!xdg-utils
-#xdm
-#!xdpyinfo
 xev
-#!xhost
-#!xinit
-#!xinitrc
-#!xkbcomp
-#!xmodmap
-#!xprop
-#!xrdb
-#!xsetroot
 zcip
-#!zip
-
-
 
 task-kde4
 
@@ -345,7 +206,6 @@ kcron
 kmail
 kopete
 kde-odf-thumbnail
-#!kde4-kwin-dekorator-themes
 kdenetwork-filesharing
 kdenetwork-strigi-analyzers
 kdenetwork4
@@ -428,18 +288,7 @@ amarok
 amarok-scripts
 konversation
 
-# Needed for the GTK theme for now, but we may want to
-# replace this with something a little less heavy on dependencies
-##rosa-elementary-theme
-##livestart-rosa
-##rosa-launcher
-##rosa-icons
-#sphere-client-rosa
-#psyncclient
-
-#mandriva-control-center
 qgtkstylealt
-##ozerocdoff
 
 autofs
 bash-completion
@@ -450,13 +299,8 @@ grub-efi-efi
 htop
 isomd5sum
 krb5-workstation
-#lsb pulls in qt4
 lsof
 microcode
-#!microcode_ctl
-#!modemmanager
-#!mobile-broadband-provider-info
-#!networkmanager
 networkmanager-openvpn
 networkmanager-vpnc
 networkmanager-pptp
@@ -466,16 +310,8 @@ nss_wins
 nut-server
 openldap-clients
 opensc
-#@pam_krb5
 pam_ldap
 pcsc-lite
-##perl-CGI
-##perl-Class-ISA
-##perl-Digest-SHA
-##perl-Net-DNS
-##perl-Pod-Perldoc
-##perl-Pod-Plainer
-##perl-Safe
 pulseaudio-module-bluetooth
 freerdp
 samba-client
@@ -483,18 +319,10 @@ samba-common
 samba-server
 samba-winbind
 sasl-plug-gssapi
-#!systemd-sysvinit
-#!systemd
-#!usb_modeswitch-data
 vpnpptp-allde
 whois
 wvdial
 xl2tpd
-#@youmagic
-
-#!lsb-release
-##glibc_lsb
-##glibc-i18ndata
 
 kcm_touchpad
 
@@ -509,16 +337,6 @@ calligra-l10n-pl
 calligra-l10n-pt
 calligra-l10n-pt_BR
 calligra-l10n-ru
-
-#rosa-software-center
-#qupzilla
-
-# For Asian input support
-#plasma-dataengine-kimpanel
-#plasma-applet-kimpanel
-#fcitx
-#fcitx-qt4
-#kcm-fcitx
 
 # For Conectiva beta, need to find a better way to take care of i18n
 locales-pt
