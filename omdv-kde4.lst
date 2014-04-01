@@ -338,34 +338,24 @@ calligra-l10n-pt
 calligra-l10n-pt_BR
 calligra-l10n-ru
 
-# For Conectiva beta, need to find a better way to take care of i18n
-locales-pt
-kde-l10n-pt_BR
-man-pages-pt_BR
-
 # More i18n to take care of the translations we usually provide
-kde-l10n-nb
-kde-l10n-nn
-locales-pl
-kde-l10n-pl
-man-pages-pl
-locales-ru
-kde-l10n-ru
-man-pages-ru
-locales-de
 kde-l10n-de
-man-pages-de
 kde-l10n-en_GB
-locales-es
 kde-l10n-es
-man-pages-es
-locales-fr
 kde-l10n-fr
-man-pages-fr
-locales-it
 kde-l10n-it
-man-pages-it
-locales-nl
+kde-l10n-nb
 kde-l10n-nl
-locales-ro
+kde-l10n-nn
+kde-l10n-pl
+kde-l10n-pt_BR
 kde-l10n-ro
+kde-l10n-ru
+
+man-pages-de
+man-pages-es
+man-pages-fr
+man-pages-it
+man-pages-pt_BR
+man-pages-pl
+man-pages-ru
