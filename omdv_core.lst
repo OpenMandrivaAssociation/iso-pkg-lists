@@ -1,8 +1,7 @@
-kernel-nrjQL-desktop-latest
 basesystem-minimal
+distro-release-common
 locales
 locales-en
-ncurses
-distro-release-common
-urpmi
 meta-task
+ncurses
+urpmi

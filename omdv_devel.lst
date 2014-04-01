@@ -1,3 +1,5 @@
+%include .///omdv_core.lst
+
 bzip2
 gcc-cpp
 gettext

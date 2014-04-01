@@ -1,40 +1,99 @@
 %include .///omdv_iso_minimal.lst
 
+
 alsa-plugins
 alsa-plugins-pulseaudio
 alsa-utils
+aria2 #iso
+autofs #iso
+bash-completion #iso
+bind-utils #iso
+bootsplash #iso
 btrfs-progs
 bzip2
+chrony
+cifs-utils #iso
+curl #iso
+distro-theme-OpenMandriva
+distro-theme-OpenMandriva-screensaver #iso
+dirmngr #iso
+dmraid #iso
+dmraid-events #iso
+dmsetup #iso
 dosfstools
 dynamic
 eject
+freetype-tools #iso
 gvfs
+hfsutils #iso
+importwizard #iso
 indexhtml
+info #iso
+info-install #iso
 inxi
+isomd5sum #iso
+iso-codes #iso
+jfsutils #iso
+ldetect #iso
+lsof #iso
+lm_sensors #iso
+mailcap #iso
 man
-memtest86+
 mc
+mdadm #iso
+mdv-rpm-summary #iso
+monitor-edid #iso
+memtest86+
+mktemp #iso
+mkxauth #iso
+mlocate #iso
+mtools #iso
+nail #iso
+ndiswrapper #iso
 ntfs-config
 ntfsprogs
-chrony
 p7zip
 pcmciautils
 plymouth-utils
+plymouth-system-theme
+pm-fallback-policy #iso
+pm-utils #iso
+polkit #iso
+preload #iso
 python-curl
+quota #iso
 reiserfsprogs
+rng-utils #iso
+rpcbind #iso
+rpmdrake #iso
+rpmstats #iso
+rtkit #iso
+shared-desktop-ontologies #iso
+sharutils #iso
+sound-scripts #iso
+sound-theme-freedesktop #iso
+soundwrapper #iso
 sudo
 suspend
 task-x11
 testdisk
-distro-theme-OpenMandriva
-plymouth-system-theme
+tmpwatch #iso
+unionfs-utils #iso
+upower #iso
+usbmuxd #iso
 urw-fonts
 uuidd
+vbetool #iso
 wget
+whois #iso
+x11-driver-input-vmmouse #iso
+x11-driver-video-vboxvideo #iso
+x11-driver-video-modesetting #iso
 x11-data-bitmaps
 x11-driver-input-evdev
 x11-driver-input-synaptics
 x11-driver-video
+xdg-user-dirs-gtk #iso
 xfsprogs
 xrandr
 xterm
