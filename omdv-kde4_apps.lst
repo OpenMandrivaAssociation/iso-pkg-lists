@@ -6,6 +6,7 @@ amarok-scripts
 bluedevil #this should be a task-kde4 dep
 distro-kde4-config-OpenMandriva
 homerun
+importwizard
 k3b
 kaddressbook
 kalarm
