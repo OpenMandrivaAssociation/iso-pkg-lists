@@ -10,20 +10,20 @@ bash-completion #iso
 bind-utils #iso
 bootsplash #iso
 btrfs-progs
-bzip2
+#bzip2
 chrony
 cifs-utils #iso
-curl #iso
+#curl #iso
 distro-theme-OpenMandriva
 distro-theme-OpenMandriva-screensaver #iso
-dirmngr #iso
+#dirmngr #iso
 dmraid #iso
 dmraid-events #iso
-dmsetup #iso
+#dmsetup #iso
 dosfstools
 dynamic
 eject
-freetype-tools #iso
+#freetype-tools #iso
 gvfs
 hfsutils #iso
 importwizard #iso
@@ -58,7 +58,7 @@ plymouth-utils
 plymouth-system-theme
 pm-fallback-policy #iso
 pm-utils #iso
-polkit #iso
+#polkit #iso
 preload #iso
 python-curl
 quota #iso
