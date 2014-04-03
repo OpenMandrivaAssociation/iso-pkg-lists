@@ -17,15 +17,12 @@ grub-efi
 grub-efi-efi
 gnu-efi
 efibootmgr
-firewalld
-firewall-config
 kernel-nrjQL-desktop-latest
 isolinux
 nscd
 openssh-clients
 omv-bug-report
 pciutils
-realmd
 syslinux
 usbutils
 usb_modeswitch
