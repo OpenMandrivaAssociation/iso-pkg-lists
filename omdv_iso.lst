@@ -24,6 +24,8 @@ dosfstools
 dynamic
 eject
 #freetype-tools #iso
+firewalld
+firewall-config
 gvfs
 hfsutils #iso
 indexhtml
@@ -61,6 +63,7 @@ pm-utils #iso
 preload #iso
 python-curl
 quota #iso
+realmd
 reiserfsprogs
 rng-utils #iso
 rpcbind #iso
