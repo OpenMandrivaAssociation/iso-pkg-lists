@@ -1,6 +1,9 @@
 drakconf
+drakguard #control
 drakx-finish-install
 harddrake
+hcl #control
+mdkonline #control
 networkmanager-applet
 userdrake
 wpa_supplicant

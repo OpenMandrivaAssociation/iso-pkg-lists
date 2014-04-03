@@ -13,6 +13,7 @@ kalarm
 kamera
 kamoso
 kcalc
+kcmsystemd #kde
 kcm_touchpad
 kcron
 kde-gtk-config
@@ -28,6 +29,7 @@ kdialog
 kdnssd
 kget
 kincidenceeditor
+kio-mtp #kde
 kio-sysinfo
 kleopatra
 klipper

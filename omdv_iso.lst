@@ -4,22 +4,11 @@
 alsa-plugins
 alsa-plugins-pulseaudio
 alsa-utils
-aria2 #iso
-autofs #iso
-bash-completion #iso
-bind-utils #iso
 bootsplash #iso
 btrfs-progs
-#bzip2
 chrony
-cifs-utils #iso
-#curl #iso
 distro-theme-OpenMandriva
 distro-theme-OpenMandriva-screensaver #iso
-#dirmngr #iso
-dmraid #iso
-dmraid-events #iso
-#dmsetup #iso
 dosfstools
 dynamic
 eject
@@ -49,24 +38,18 @@ mktemp #iso
 mkxauth #iso
 mlocate #iso
 mtools #iso
-nail #iso
-ndiswrapper #iso
 ntfs-config
 ntfsprogs
-p7zip
 pcmciautils
 plymouth-utils
 plymouth-system-theme
 pm-fallback-policy #iso
 pm-utils #iso
-#polkit #iso
 preload #iso
 python-curl
 quota #iso
 realmd
 reiserfsprogs
-rng-utils #iso
-rpcbind #iso
 rpmdrake #iso
 rpmstats #iso
 rtkit #iso

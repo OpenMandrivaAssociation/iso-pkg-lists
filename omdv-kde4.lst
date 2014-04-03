@@ -4,6 +4,7 @@
 %include .///omdv_control.lst
 %include .///omdv_drivers.lst
 %include .///omdv_ppp.lst
+%include .///omdv_utils.lst
 
 # more includes lists for common sets that are not task/meta pkgs
 %include .///omdv_firefox.lst
@@ -21,8 +22,13 @@ task-kde4
 
 # Needed Task/Meta Packages
 task-pulseaudio
+
 task-printing
+# printing
 task-printing-scanning
+hplip-gui #printer
+system-config-printer-gui #printer
+
 x11-font-cyrillic
 # keep to check
 x11-server-xorg
@@ -33,74 +39,47 @@ x11-font-misc
 x11-data-cursor-themes
 
 # MD this entire list should be shuffled or justified to be needed for the full ISO
-aoss
-atk1.0-common
-avahi
-cagibi
-canberra-gtk
-cdialog
-cdrkit
-cdrkit-genisoimage
-davfs2
-drakguard
-dump
-dvb-apps
-dvbsnoop
-dvbtune
-dvd+rw-tools
+
+avahi #service
+cagibi #service
+firewall-applet #service
+jackit #service
+
+atk1.0-common #gtk dep
+canberra-gtk #gtk dep
+gamin #gtk dep
+GConf2 #gtk dep
+gtk2-modules #gtk dep
+gtk-engines2 #gtk dep
+gtk-qt-engine #gtk dep
+gvfs-archive #gtk dep
+gvfs-fuse #gtk dep
+gvfs-gphoto2 #gtk dep
+gvfs-smb #gtk dep
+ia_ora-gnome #gtk dep
+notification-daemon #dubious virt req
+pango #gtk dep
+
+# Miscelaneous Packages
 enchant
 ffmpeg
-firewall-applet
-freerdp
-gamin
-GConf2
-gnupg
-gtk2-modules
-gtk-engines2
-gtk-qt-engine
-gvfs-archive
-gvfs-fuse
-gvfs-gphoto2
-gvfs-smb
-hcl
-hplip-gui
-html2text
-htop
-ia_ora-gnome
-jackit
 jasper
-kcmsystemd
-kio-mtp
-krb5-workstation
-lftp
-lvm2
-microcode
-mdkonline
-networkmanager-openvpn
-networkmanager-vpnc
-networkmanager-pptp
-typelib(NetworkManager)
-net_monitor
-nfs-utils
-nfs-utils-clients
-notification-daemon
 nss
 nss_ldap
 nss_mdns
 nss_tcb
 nss_wins
-nut-server
-obex-data-server
-open
-openldap-clients
-opensc
-openssh-server
 openssl
 pam_ldap
-pcsc-lite
-pango
 poppler-data
-pptp-linux
+sasl-plug-gssapi
+
+nut-server #server
+obex-data-server #server for gnome/mate
+openssh-server #server
+samba-server #server
+
+#python deps?
 python-ldap
 python-notify
 python-OpenSSL
@@ -110,22 +89,4 @@ python-twisted-core
 python-twisted-web
 python-zope-interface
 pyxdg
-rsnapshot
-rsync
-samba-client
-samba-common
-samba-server
-samba-winbind
-sane-backends-iscan
-sash
-sasl-plug-gssapi
-sscape_ctl
-system-config-printer-gui
-taglib-extras
-uClibc
-vnstat
-vpnpptp-allde
-xev
-xl2tpd
-zcip
 
