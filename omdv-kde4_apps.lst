@@ -15,6 +15,7 @@ kamoso
 kcalc
 kcmsystemd #kde
 kcm_touchpad
+kcm-grub2
 kcron
 kde-gtk-config
 kde-odf-thumbnail
