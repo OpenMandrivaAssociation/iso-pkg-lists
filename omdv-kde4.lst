@@ -19,6 +19,7 @@
 # Desktop Specifics
 task-kde4
 %include .///omdv-kde4_apps.lst
+plasma-nm
 
 # Needed Task/Meta Packages
 task-pulseaudio
