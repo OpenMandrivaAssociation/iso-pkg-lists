@@ -18,12 +18,13 @@
 
 # Desktop Specifics
 task-mate
+openmandriva-mate-config
 
 # Needed Task/Meta Packages
 task-pulseaudio
 
-task-printing
 # printing
+#task-printing
 #task-printing-scanning
 #hplip-gui #printer
 #system-config-printer-gui #printer
