@@ -96,3 +96,5 @@ python-twisted-web
 python-zope-interface
 pyxdg
 
+# special featured software
+oma-welcome
