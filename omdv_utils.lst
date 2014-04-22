@@ -22,6 +22,7 @@ htop #utils
 krb5-workstation #utils
 lftp #utils
 libgphoto-common #utils
+libmtp-utils #utils
 lvm2 #utils
 microcode #utils old
 nail #utils
