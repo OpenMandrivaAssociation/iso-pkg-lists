@@ -7,6 +7,7 @@ cdialog #utils old
 cdrkit #utils
 cdrkit-genisoimage #utils
 cifs-utils #utils
+command-not-found #utils
 davfs2 #utils
 dmraid #utils
 dmraid-events #utils
