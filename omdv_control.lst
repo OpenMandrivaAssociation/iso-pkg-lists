@@ -7,3 +7,4 @@ mdkonline #control
 networkmanager-applet
 userdrake
 wpa_supplicant
+mandi #needed for oma-welcome and other drak-stuff
