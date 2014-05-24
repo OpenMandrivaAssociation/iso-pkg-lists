@@ -45,7 +45,6 @@ plymouth-utils
 plymouth-system-theme
 pm-fallback-policy #iso
 pm-utils #iso
-preload #iso
 python-curl
 quota #iso
 realmd
