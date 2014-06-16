@@ -23,6 +23,7 @@ openssh-clients
 omv-bug-report
 pciutils
 syslinux
+timezone
 usbutils
 usb_modeswitch
 vim-minimal #min-iso
