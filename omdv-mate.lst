@@ -84,7 +84,5 @@ python-notify
 python-OpenSSL
 python-pycrypto
 python-sip
-python-twisted-core
-python-twisted-web
 pyxdg
 
