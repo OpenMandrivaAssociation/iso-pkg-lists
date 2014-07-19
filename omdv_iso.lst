@@ -23,6 +23,7 @@ info-install #iso
 inxi
 isomd5sum #iso
 iso-codes #iso
+irqbalance
 jfsutils #iso
 ldetect #iso
 lsof #iso
@@ -47,7 +48,6 @@ pm-fallback-policy #iso
 pm-utils #iso
 python-curl
 quota #iso
-realmd
 reiserfsprogs
 rpmdrake #iso
 rpmstats #iso
