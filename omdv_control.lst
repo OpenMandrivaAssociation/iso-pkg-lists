@@ -2,7 +2,7 @@ drakconf
 drakx-finish-install
 firewalld #control
 harddrake
-hcl #control
+#hcl #control
 mdkonline #control
 networkmanager-applet
 userdrake
