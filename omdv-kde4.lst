@@ -85,10 +85,10 @@ openssh-server #server
 samba-server #server
 
 #python deps?
-python-ldap
+#python-ldap
 python-notify
-python-OpenSSL
-python-pycrypto
+#python-OpenSSL
+#python-pycrypto
 python-sip
 pyxdg
 
