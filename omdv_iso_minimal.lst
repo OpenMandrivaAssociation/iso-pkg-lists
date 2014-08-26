@@ -17,6 +17,7 @@ grub2-efi
 gnu-efi
 efibootmgr
 kernel-nrjQL-desktop-latest
+kernel-nrjQL-desktop-3.15.8-1omv
 isolinux
 nscd
 openssh-clients
