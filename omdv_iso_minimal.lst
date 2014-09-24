@@ -13,7 +13,8 @@ draklive-install #min-iso
 drakx-installer-binaries-probe #min-iso
 gpm
 grub2
-grub2-efi
+grub-efi
+grub-efi-efi
 gnu-efi
 efibootmgr
 kernel-nrjQL-desktop-latest
