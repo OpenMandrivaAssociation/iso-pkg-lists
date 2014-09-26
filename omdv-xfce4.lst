@@ -7,14 +7,14 @@
 %include .///omdv_utils.lst
 
 # more includes lists for common sets that are not task/meta pkgs
-%include .///omdv_firefox.lst
+#include .///omdv_firefox.lst
 %include .///omdv_fonts.lst
 %include .///omdv_gstreamer.lst
 %include .///omdv_libreoffice.lst
 %include .///omdv_locales.lst
 %include .///omdv_man-pages.lst
 %include .///omdv_pulseaudio.lst
-%include .///omdv_vlc.lst
+# include .///omdv_vlc.lst
 
 # Desktop Specifics
 task-xfce
@@ -24,7 +24,7 @@ eatmonkey
 slim
 orage
 gigolo
-# midori
+midori
 parole
 #squeeze
 xarchiver
@@ -69,6 +69,7 @@ edidbins
 
 avahi #service
 firewall-applet #service
+networkmanager-applet
 
 atk1.0-common #gtk dep
 canberra-gtk #gtk dep
