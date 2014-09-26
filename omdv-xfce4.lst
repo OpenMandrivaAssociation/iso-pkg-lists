@@ -17,7 +17,33 @@
 %include .///omdv_vlc.lst
 
 # Desktop Specifics
-task-xfce4
+task-xfce
+task-xfce-minimal
+task-xfce-plugins
+eatmonkey
+slim
+orage
+gigolo
+# midori
+parole
+#squeeze
+xarchiver
+ristretto
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-shares-plugin
+#thunar-svn-plugin
+#thunar-vcs-plugin
+thunar-thumbnailers
+tumbler
+xfbib
+xfburn
+xfmpc
+#xfprint
+#fswitch-plugin
+#xfce4-artwork
+xfce4-appfinder
+xfce4-screenshooter
 
 # Needed Task/Meta Packages
 task-pulseaudio
