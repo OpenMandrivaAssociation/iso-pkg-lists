@@ -19,6 +19,7 @@ kcm-grub2
 kcron
 kde-gtk-config
 kde-odf-thumbnail
+kdeconnect
 kdenetwork-filesharing
 kdenetwork-strigi-analyzers
 kdenetwork4
@@ -93,6 +94,8 @@ plasma-runner-katesessions
 plasma-runner-konquerorsessions
 plasma-runner-konsolesessions
 plasma-runner-kopete
+plasma-scriptengine-python
+plasma-scriptengine-ruby
 plasma-wallpaper-weather
 rosa-imagewriter
 qgtkstylealt
