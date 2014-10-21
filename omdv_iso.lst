@@ -42,7 +42,6 @@ mtools #iso
 ntfs-config
 ntfsprogs
 pcmciautils
-plymouth-utils
 plymouth-system-theme
 pm-fallback-policy #iso
 pm-utils #iso
