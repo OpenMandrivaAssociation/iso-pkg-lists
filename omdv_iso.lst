@@ -39,7 +39,6 @@ mktemp #iso
 mkxauth #iso
 mlocate #iso
 mtools #iso
-ntfs-config
 ntfsprogs
 pcmciautils
 plymouth-system-theme
