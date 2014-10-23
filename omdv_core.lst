@@ -1,5 +1,6 @@
 basesystem-minimal
 distro-release-common
+distro-release-OpenMandriva
 locales
 locales-en
 meta-task
