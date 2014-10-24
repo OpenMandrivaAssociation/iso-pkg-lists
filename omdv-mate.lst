@@ -44,21 +44,7 @@ avahi #service
 cagibi #service
 firewall-applet #service
 jackit #service
-
-#atk1.0-common #gtk dep
-#canberra-gtk #gtk dep
-#gamin #gtk dep
-#GConf2 #gtk dep
-#gtk2-modules #gtk dep
-#gtk-engines2 #gtk dep
-#gtk-qt-engine #gtk dep
-#gvfs-archive #gtk dep
-#gvfs-fuse #gtk dep
-#gvfs-gphoto2 #gtk dep
-#gvfs-smb #gtk dep
-#ia_ora-gnome #gtk dep
-#notification-daemon #dubious virt req
-#pango #gtk dep
+networkmanger-applet
 
 # Miscelaneous Packages
 enchant
@@ -78,11 +64,7 @@ obex-data-server #server for gnome/mate
 openssh-server #server
 samba-server #server
 
-#python deps?
-#python-ldap
 python-notify
-#python-OpenSSL
-#python-pycrypto
 python-sip
 pyxdg
 
