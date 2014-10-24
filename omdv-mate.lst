@@ -44,7 +44,7 @@ avahi #service
 cagibi #service
 firewall-applet #service
 jackit #service
-networkmanger-applet
+networkmanager-applet
 
 # Miscelaneous Packages
 enchant
