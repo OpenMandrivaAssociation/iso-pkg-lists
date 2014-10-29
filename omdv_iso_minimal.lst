@@ -14,6 +14,9 @@ drakx-installer-binaries-probe #min-iso
 gpm
 grub2
 grub2-efi
+os-prober
+efivar
+efibootmgr
 gnu-efi
 efibootmgr
 kernel-nrjQL-desktop-latest
