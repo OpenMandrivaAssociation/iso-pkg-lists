@@ -5,11 +5,13 @@ alsa-plugins
 alsa-plugins-pulseaudio
 alsa-utils
 bootsplash #iso
+bootloader-utils # min-iso
 btrfs-progs
 chrony
 distro-theme-OpenMandriva
 distro-theme-OpenMandriva-screensaver #iso
 dosfstools
+draklive-install #min-iso
 dynamic
 eject
 #freetype-tools #iso
