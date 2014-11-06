@@ -4,12 +4,10 @@ acpi
 acpid
 at
 basesystem
-bootloader-utils #min-iso
 busybox-static #min-iso
 cronie-anacron
 #dash-static #min-iso what is that for ???????
 dhcp-client
-draklive-install #min-iso
 gpm
 grub2
 grub-efi
