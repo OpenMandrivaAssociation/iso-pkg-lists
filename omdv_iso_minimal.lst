@@ -10,7 +10,6 @@ cronie-anacron
 #dash-static #min-iso what is that for ???????
 dhcp-client
 draklive-install #min-iso
-drakx-installer-binaries-probe #min-iso
 gpm
 grub2
 grub-efi
