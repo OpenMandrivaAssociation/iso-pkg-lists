@@ -14,7 +14,7 @@
 # Desktop Specifics
 task-hawaii
 sddm
-wayland
+wayland-tools
 weston
 
 # Needed Task/Meta Packages
