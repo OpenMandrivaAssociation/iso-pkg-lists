@@ -14,7 +14,8 @@
 # Desktop Specifics
 task-hawaii
 sddm
-wayland weston
+wayland
+weston
 
 # Needed Task/Meta Packages
 task-pulseaudio
