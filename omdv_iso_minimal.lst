@@ -7,6 +7,7 @@ basesystem
 busybox-static #min-iso
 cronie-anacron
 #dash-static #min-iso what is that for ???????
+distro-release-OpenMandriva
 dhcp-client
 gpm
 grub2
