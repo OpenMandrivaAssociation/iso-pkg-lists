@@ -18,6 +18,7 @@ efibootmgr
 kernel-nrjQL-desktop-latest
 kernel-nrjQL-desktop
 isolinux
+memtest86+
 nscd
 openssh-clients
 omv-bug-report
