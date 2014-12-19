@@ -17,7 +17,7 @@ gnu-efi
 efibootmgr
 kernel-nrjQL-desktop-latest
 kernel-nrjQL-desktop
-isolinux
+syslinux
 nscd
 openssh-clients
 omv-bug-report
