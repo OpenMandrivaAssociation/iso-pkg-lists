@@ -18,6 +18,7 @@
 
 # Desktop Specifics
 task-lxqt
+qterminal
 sddm
 
 # Needed Task/Meta Packages
