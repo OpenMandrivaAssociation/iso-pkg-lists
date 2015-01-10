@@ -7,7 +7,6 @@ alsa-utils
 bootsplash #iso
 bootloader-utils # min-iso
 btrfs-progs
-chrony
 distro-theme-OpenMandriva
 distro-theme-OpenMandriva-screensaver #iso
 dosfstools
